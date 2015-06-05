@@ -1,0 +1,205 @@
+body {
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    background-image: url('darkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+header {
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin:0 auto;
+   /* background-color:rgba(0,0,0,0.5);*/
+    background-size: 100%;
+
+
+}
+header h1 a {
+
+	font-style: italic;
+	padding: .25em .5em;
+	color: white;
+	text-decoration: none;
+	background:rgba(0,0,0,0.5);
+	border-radius: 6px 6px;
+	margin-left: .5em;
+
+
+}
+header h1 a:hover {
+
+	color: #66FF33;
+	font-weight: 900;
+}
+
+
+
+
+/*header p{
+    float:left;
+    font-size: 40px;
+}*/
+
+header nav{
+    float:right;
+}
+
+
+
+nav li{
+display:inline-block;
+margin-left: 2em;
+padding-top: 0;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #66FF33;
+    text-decoration: none;
+}
+
+/* selected link */
+nav a:active {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+
+.form {
+	background-color: #D4D7FE;
+	border: 1px solid transparent;
+	border-radius: 6px 6px;
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 20px;
+	text-align: center;
+	
+
+}
+
+	
+
+/*.box {
+	
+	
+	
+
+	border: 1px solid transparent;
+	border-radius: 6px 6px;
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 20px;
+	text-align: center;
+	opacity: 0.5;
+	max-width: 900px;
+	margin: 0 auto;
+
+}*/
+
+
+
+
+
+
+.posts {
+	background-color: #D4D7FE;
+	border: 1px solid transparent;
+	border-radius: 6px 6px;
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 20px;
+	text-align: left;
+	
+
+}
+
+.login {
+	padding-bottom: 10px;
+	float: right;
+
+}
+
+.container {
+    width:500px;
+    margin: 0px auto;
+    background-color: black;
+    opacity: 0.9;
+    padding:6em;
+    border-radius: 6px 6px;
+
+}
+
+.signup li a {
+	
+	
+	padding: .25em .5em;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px 6px;
+	margin-left: .5em;
+
+}
+
+.signup li a:hover {
+	color: #66FF33;
+
+}
+
+
+.container h1 {
+
+  	font-family: Raleway;
+  	font-weight:700;
+  	font-size:2.4em;
+  	text-align: left;
+
+  	
+}
+
+.container p {
+
+}
+
+/*input {
+    height: 55px;
+}*/
+
+#container {
+   width:500px;
+   height:500px;
+   margin: 0px auto;
+   background: rgba(0,0,0,0.6);
+   
+   border-radius: 25px;
+}
+
+.form{
+ border-radius: 25px;
+ margin-top: 4em;
+
+}
+
+

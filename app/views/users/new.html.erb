@@ -1,0 +1,44 @@
+<!-- signup page -->
+
+
+<br>
+<div id="container">
+	
+	<br>
+
+		<h2><center>Sign Up</center></h2>
+	<br>
+
+<!-- <div class="form"> -->
+    <center>
+
+    <%= form_for @user do |f| %>
+    
+    
+    <div>
+        
+        <%= f.email_field :email, :placeholder=> "email" , :size => 40 %>
+        
+    </div>
+    
+<br>
+    <div>
+    <%= f.password_field :password, :placeholder => "password", :size => 40  %>
+    </div>
+
+<br>
+    <div>
+    <%= f.password_field :password_confirmation, :placeholder => "password confirmation",:size => 40,input_html: {style: 'height:10px;'} %>
+    </div>
+<br>
+    
+    <div class="submit">
+    <%=image_submit_tag("submitbutton.png") %>
+    </div>
+        <% end %>
+
+</center>
+
+    <!-- </div>  -->
+           <!-- END OF FORM DIV -->
+</div>

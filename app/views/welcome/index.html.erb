@@ -1,0 +1,35 @@
+<!-- root/first page -->
+<script src="http://connect.soundcloud.com/sdk.js">
+ 	</script>
+ <script>
+// initialize client with app credentials
+SC.initialize({
+  client_id: 
+  'ba76275bf8c2f73f59280a2aedd88f1d',
+  redirect_uri:
+  'http://localhost:3000/users/index'
+});
+
+// initiate auth popup
+SC.connect(function() {
+  SC.get('/me', function(me) { 
+    alert('Hello, ' + me.username); 
+  });
+});
+</script>
+<br>
+<br>
+
+<div class="container">
+
+	<center>
+
+		<h1> Find music easy</h1>
+
+
+
+				<p> sign in to your soundcloud for a list of suggested songs</p>
+
+	</center>
+</div>
+
